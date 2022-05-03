@@ -1,0 +1,74 @@
+/* Sivuston CSS-koodi */
+/* CSS-koodiin kommentoidaan tällaisilla merkeillä */
+/* Alla esimerkki ja muistutus CSS-koodin syntaksista:
+
+	elementti {
+		ominaisuus: arvo;
+		ominaisuus2: arvo2;
+	}
+	
+*/
+
+body {
+	background-color: #11;
+}
+h2 { color: white;
+
+}
+
+h1 { color: white;
+}
+
+
+#nettisivu {
+	margin: 0 auto;
+	width: 1200px;
+	height: 800px;
+	background-color: #122343;
+	box-shadow: 20px 20px 10px #db006b;
+	border-radius: 15px; 
+	padding: 10px;
+}
+
+#otsikko1{
+	background-color: #123456;
+	float: left;
+	width: 100%;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	height:12%;
+}
+#otsikko2{
+	background-color: #938513;
+	float: left;
+	width: 50%;	
+	height:12%;
+}
+
+#laatikko1{	
+	background-color: #729423;
+	float: left;
+	width: 50%;
+	height: 12%;
+}
+
+#kuva{
+	float: right;
+	background-color: white;	
+	border-bottom-right-radius: 15px;
+	width:40%;
+	border-radius: 5px;
+	padding: 10px;
+}
+	
+
+#vidio  {
+	float: left;
+	width: 40%;
+	border-bottom-left-radius: 15px;
+	background-color:white;
+	border-radius:5px;
+	padding:10px;
+
+	
+}
